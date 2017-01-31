@@ -11,6 +11,7 @@
   "hubot-rules",
   "hubot-shipit",,
   "hubot-table-flip",
+  "hubot-markov",
   "hubot-business-cat",
   "hubot-plusplus"
 ]
