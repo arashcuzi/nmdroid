@@ -5,6 +5,7 @@
   "author": "Shawn Petros <shawnpetros@northwesternmutual.com",
   "description": "NM's official helpful bot!",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "hubot": "^2.19.0",
     "hubot-business-cat": "^1.5.3",
     "hubot-diagnostics": "0.0.1",
@@ -20,6 +21,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^4.3.1",
+    "request": "^2.79.0",
     "tinycolor2": "^1.4.1"
   },
   "engines": {
