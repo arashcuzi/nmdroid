@@ -13,5 +13,6 @@
   "hubot-table-flip",
   "hubot-markov",
   "hubot-business-cat",
-  "hubot-plusplus"
+  "hubot-plusplus",
+  "hubot-jenkins-notifier"
 ]
