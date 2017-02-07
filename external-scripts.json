@@ -17,5 +17,6 @@
   "hubot-jenkins-notifier",
   "hubot-substitute",
   "hubot-yourface",
-  "hubot-todo"
+  "hubot-todo",
+  "hubot-youtube"
 ]
