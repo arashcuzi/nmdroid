@@ -16,5 +16,6 @@
   "hubot-plusplus",
   "hubot-jenkins-notifier",
   "hubot-substitute",
-  "hubot-yourface"
+  "hubot-yourface",
+  "hubot-todo"
 ]

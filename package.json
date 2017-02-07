@@ -26,6 +26,7 @@
     "hubot-slack": "^4.3.1",
     "hubot-substitute": "^0.2.0",
     "hubot-table-flip": "^0.2.0",
+    "hubot-todo": "^1.0.11",
     "hubot-yourface": "0.0.3",
     "request": "^2.79.0",
     "tinycolor2": "^1.4.1"
