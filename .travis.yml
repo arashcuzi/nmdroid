@@ -1,6 +1,4 @@
 ---
-  docker run -d -p 44992:8080 arashcuzi/hubot
-
 sudo: required
 services:
 - docker
