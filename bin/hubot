@@ -4,5 +4,18 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+export HUBOT_PORT=8080
+export HUBOT_ADAPTER=slack
+export HUBOT_NAME=nmbot
+export HUBOT_GOOGLE_CSE_ID=017059999294984254563:stpd7lgiclc
+export HUBOT_GOOGLE_CSE_KEY=AIzaSyCl0E1iWGoR_vN2-YAypQd28HQjFzuue1Q
+export HUBOT_SLACK_TOKEN=xoxb-134710003909-jOn0cMgndsVR0lna04HBYKu9
+export HUBOT_SLACK_TEAM=northwesternmutual
+export HUBOT_SLACK_BOTNAME=$HUBOT_NAME
+export HUBOT_MARKOVLEARN_MAX=100
+export HUBOT_MARKOVLEARN_MIN=2
+export HUBOT_WEATHER_APIKEY=aadc3edae5a9e813be843e9b40a35110
+export TZ=America/Chicago
+export PORT=$HUBOT_PORT
 
 exec node_modules/.bin/hubot --name "nmbot" "$@"
