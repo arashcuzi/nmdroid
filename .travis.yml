@@ -9,6 +9,6 @@ cache:
   directories:
   - node_modules
 script:
-- docker login -u arashcuzi -p $DOCKER_PASSWORD
+- docker login -u=$DOCKER_USERNAME -p=$DOCKER_PASSWORD
 - docker build -t arashcuzi/nmbot .
 - docker push arashcuzi/nmbot
