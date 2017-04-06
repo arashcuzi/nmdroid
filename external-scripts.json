@@ -2,6 +2,7 @@
   "hubot-diagnostics",
   "hubot-help",
   "hubot-frinkiac",
+  "hubot-env",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-pugme",
