@@ -30,4 +30,4 @@ RUN redis-server --daemonize yes
 RUN npm install
 
 EXPOSE ${HUBOT_PORT}
-CMD ["bin/hubot"]
+CMD ["bin/hubot", "-a", "slack"]
