@@ -9,6 +9,7 @@
     "hubot": "^2.19.0",
     "hubot-business-cat": "^1.5.3",
     "hubot-diagnostics": "0.0.1",
+    "hubot-env": "0.0.2",
     "hubot-frinkiac": "^2.2.0",
     "hubot-google-images": "^0.2.6",
     "hubot-google-translate": "^0.2.0",
