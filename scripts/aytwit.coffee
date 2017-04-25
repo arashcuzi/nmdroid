@@ -1,3 +1,17 @@
+# Description:
+#   Hubot listens for key phrases and
+#   responds in Pinky and the Brain
+#   style
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Author:
+#   unknown
+
 phrases = (name) ->
   [
     'Uh, I think so, #{name}, but where will we find a duck and a hose at this hour?'
