@@ -1,4 +1,4 @@
-var phrases = [
+phrases = [
 	'Uh, I think so, #{msg.message.user.name}, but where will we find a duck and a hose at this hour?',
 	'I think so, but where will we find an open tattoo parlor at this time of night?',
 	'Wuh, I think so, #{msg.message.user.name}, but if we didn\'t have ears, we\'d look like weasels.',
