@@ -6,6 +6,7 @@
   "description": "NM's official helpful bot!",
   "dependencies": {
     "cheerio": "^0.22.0",
+    "flip": "^1.0.0",
     "htmlparser": "^1.7.7",
     "hubot": "^2.19.0",
     "hubot-business-cat": "^1.5.3",
@@ -29,9 +30,13 @@
     "hubot-slack": "^4.3.1",
     "hubot-substitute": "^0.2.0",
     "hubot-table-flip": "^0.2.0",
+    "hubot-tableflip": "^0.1.0",
     "hubot-todo": "^1.0.11",
     "hubot-yourface": "0.0.3",
     "hubot-youtube": "^1.0.2",
+    "jquery": "^3.2.1",
+    "jsdom": "^10.1.0",
+    "nodepie": "^0.7.0",
     "request": "^2.79.0",
     "tinycolor2": "^1.4.1"
   },
