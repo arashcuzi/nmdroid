@@ -14,7 +14,7 @@
 #   mrtazz
 
 module.exports = (robot) ->
-  robot.respond /commit message/i, (msg) ->
+  robot.hear /commit message/i, (msg) ->
     msg.http("http://whatthecommit.com/index.txt")
        .get() (err, res, body) ->
          msg.reply body
