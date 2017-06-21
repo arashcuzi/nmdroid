@@ -1,4 +1,4 @@
-# nmdroid
+# nmdroid [![Build Status](https://travis-ci.org/arashcuzi/nmdroid.svg?branch=master)](https://travis-ci.org/arashcuzi/nmdroid)
 
 ##### about bot...
 
