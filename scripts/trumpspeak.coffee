@@ -19,4 +19,4 @@ module.exports = (robot) ->
       .get() (err, res, body) ->
         json = JSON.parse body
         message = json.message
-        msg.reply message
+        msg.send 'President Trump would say: ' + message
