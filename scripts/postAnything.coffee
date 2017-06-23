@@ -20,7 +20,8 @@ module.exports = (robot) ->
     options =
       url: 'http://174.138.56.13:3001/post-anything'
       json: true
-      body: message: msg.match[1]
-    console.log msg.match
+      body:
+        message: msg.match[1]
+        user: msg.message.user.name
     request.post options, () ->
       msg.reply 'sent'
