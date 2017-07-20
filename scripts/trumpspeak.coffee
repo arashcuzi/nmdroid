@@ -15,8 +15,8 @@
 
 module.exports = (robot) ->
   robot.hear /trump/i, (msg) ->
-    msg.http("https://api.whatdoestrumpthink.com/api/v1/quotes/random")
-      .get() (err, res, body) ->
-        json = JSON.parse body
-        message = json.message
-        msg.send 'President Trump would say: ' + message
+    # msg.http("https://api.whatdoestrumpthink.com/api/v1/quotes/random")
+    #   .get() (err, res, body) ->
+    #     json = JSON.parse body
+    #     message = json.message
+    msg.send 'trump!? Did someone say trunp?! I would quote Mr. POTUS, but it\'s NSFW...so...'
